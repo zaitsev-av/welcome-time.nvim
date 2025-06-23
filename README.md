@@ -2,8 +2,7 @@
 
 A simple and highly customizable welcome screen for Neovim that displays ASCII art, a random quote, and a greeting that changes based on the time of day.
 
-![image](https://github.com/user-attachments/assets/2f16a1b2-2900-47b8-a764-a7fd1ab837f4)
-
+![example.png](example.png)
 
 ---
 
@@ -46,14 +45,7 @@ You can override any of the default settings by passing a table to the `setup` f
 **Default Configuration:**
 ```lua
 require("welcome-time").setup({
-  art = {
-    "    ____     _    ____     _ ",
-    "  / __ \\   | |  / __ \\   | |",
-    " | |  | |  | | | |  | |  | |",
-    " | |  | |  | | | |  | |  | |",
-    " | |__| |  | | | |__| |  | |",
-    "  \\____/   |_|  \\____/   |_|",
-  },
+  art = {""},
   quotes = {
     "The computer was created to solve problems that did not exist before.",
     "Simplicity is the soul of effectiveness.",
@@ -143,14 +135,7 @@ return {
 **Конфигурация по умолчанию:**
 ```lua
 require("welcome-time").setup({
-  art = {
-    "    ____     _    ____     _ ",
-    "  / __ \\   | |  / __ \\   | |",
-    " | |  | |  | | | |  | |  | |",
-    " | |  | |  | | | |  | |  | |",
-    " | |__| |  | | | |__| |  | |",
-    "  \\____/   |_|  \\____/   |_|",
-  },
+  art = {""},
   quotes = {
     "Компьютер был создан для решения проблем, которых раньше не существовало.",
     "Простота — душа эффективности.",
